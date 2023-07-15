@@ -1,0 +1,29 @@
+.sectionHistoy{
+    background-color: #C0C0C0;
+}
+.transactionHistory{
+    margin: 0 auto;
+    width: 750px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.thead{
+    background-color: #008080;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.td{
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #20B2AA;
+}
