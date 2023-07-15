@@ -13,8 +13,6 @@ export default function FriendList ({ friends }) {
         isOnline={friend.isOnline}
         />
        ))}
-       
-       
     </ul>
     )
 };
@@ -22,3 +20,5 @@ export default function FriendList ({ friends }) {
 FriendList.propTypes = {
     friends: PropTypes.arrayOf(PropTypes.object.isRequired),
     }
+       
+       
