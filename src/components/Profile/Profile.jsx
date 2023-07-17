@@ -11,7 +11,7 @@ export default function Profile ({ username,tag,location,avatar,stats }) {
       className={style.avatar}
     />
     <p className={style.name}>{username}</p>
-    <p className={style.tag}>{tag}</p>
+    <p className={style.tag}>@{tag}</p>
     <p className={style.location}>{location}</p>
   </div>
 
